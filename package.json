@@ -21,8 +21,8 @@
     "enzyme-adapter-preact-pure": "^2.3.0",
     "eslint": "^6.8.0",
     "eslint-config-preact": "^1.1.4",
-    "jest": "^24.9.0",
-    "jest-preset-preact": "^1.0.0",
+    "jest": "^26.5.0",
+    "jest-preset-preact": "^4.0.3",
     "preact-cli": "^3.0.5",
     "sirv-cli": "^1.0.3"
   },
@@ -30,7 +30,9 @@
     "node-notifier": "^8.0.1",
     "preact": "^10.5.13",
     "preact-render-to-string": "^5.1.19",
-    "preact-router": "^3.2.1"
+    "preact-router": "^3.2.1",
+    "react": "github:preact-compat/react",
+    "react-dom": "github:preact-compat/react-dom"
   },
   "jest": {
     "preset": "jest-preset-preact",
